@@ -1,0 +1,31 @@
+<div class="overlay" *ngIf="isMenuOpen" (click)="toggleMenu()"></div>
+
+<nav class="navbar">
+  <div class="logo">Peter.L</div>
+  <!-- Hamburger-Button wird nur angezeigt, wenn das Menü geschlossen ist -->
+  <div class="menu-toggle" *ngIf="!isMenuOpen" (click)="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <!-- Schließen-Button (X) wird nur angezeigt, wenn das Menü geöffnet ist -->
+  <div class="close-toggle" *ngIf="isMenuOpen" (click)="toggleMenu()">X</div>
+  <ul class="nav-links" [class.open]="isMenuOpen">
+    <li><a href="#startseite" (click)="toggleMenu()">{{'nav.home'|translate}}</a></li>
+    <li><a href="#lebenslauf" (click)="toggleMenu()">{{'nav.about'|translate}}</a></li>
+    <li><a href="#kontakt" (click)="toggleMenu()">{{'nav.portfolio'|translate}}</a></li>
+    <li><a href="#kontakt" (click)="toggleMenu()">{{'nav.contact'|translate}}</a></li>
+  </ul>
+
+  <div id="translate">
+    <select (change)="changeLanguage($event)">
+      <option value="en">English</option>
+      <option value="de">Deutsch</option>
+    </select>
+  </div>
+</nav>
+
+
+
+
+

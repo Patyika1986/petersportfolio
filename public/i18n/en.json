@@ -1,0 +1,21 @@
+{
+    "hello": "Hello, I am",
+    "homeText": {
+        "1": "I am a",
+        "2": "Angular Frontend Developer",
+        "3": "with over 2.5 years of experience.",
+        "4": "I live in",
+        "5": "Nuremberg",
+        "6": "and I love writing clean and user-friendly code."
+    },
+    "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+}
+
+}
+
+  

@@ -1,0 +1,19 @@
+{
+    "hello": "Hallo, ich bin",
+    "homeText": {
+        "1":"ich bin ein",
+        "2":"Angular-Frontend-Entwickler",
+        "3": "mit über 2,5 Jahren Erfahrung.",
+        "4":"Ich wohne in",
+        "5":"Nürnberg",
+        "6":"und ich liebe es, sauberen und benutzerfreundlichen Code zu schreiben."
+    },
+    "nav": {
+        "home": "Startseite",
+        "about": "Über mich",
+        "skills": "Fähigkeiten",
+        "portfolio": "Portfolio",
+        "contact": "Kontakt"
+    }
+}
+  

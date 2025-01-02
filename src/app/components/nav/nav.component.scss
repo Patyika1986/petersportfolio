@@ -1,0 +1,125 @@
+
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ff9800;
+}
+
+/* Hamburger-Button (menu-toggle) */
+.menu-toggle {
+  display: flex;
+  flex-direction: column; /* Die Spans werden untereinander angezeigt */
+  justify-content: center;
+  align-items: center;
+  gap: 4px; /* Abstand zwischen den Linien */
+  cursor: pointer;
+}
+
+/* Mobile Menu Styling */
+.menu-toggle, .close-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Hamburger-Button (menu-toggle) */
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Schließen-Button (X) */
+.close-toggle {
+  font-weight: bold;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+
+/* Überlagerungshintergrund */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 5;
+}
+
+/* Responsives Design */
+@media screen and (max-width: 768px) {
+  .menu-toggle,
+  .close-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 70%;
+    background-color: #333;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+    z-index: 6;
+  }
+
+  .nav-links.open {
+    transform: translateX(0);
+  }
+
+  .nav-links li {
+    margin: 1rem 2rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+}
+
+
+#translate {
+  position: fixed;
+  top: 4rem;
+  right: 1rem;
+}

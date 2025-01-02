@@ -1,0 +1,50 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #0078d4; /* Primärfarbe */
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  /* Responsives Design */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
