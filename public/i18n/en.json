@@ -1,21 +1,25 @@
 {
-    "hello": "Hello, I am",
-    "homeText": {
-        "1": "I am a",
-        "2": "Angular Frontend Developer",
-        "3": "with over 2.5 years of experience.",
-        "4": "I live in",
-        "5": "Nuremberg",
-        "6": "and I love writing clean and user-friendly code."
-    },
-    "nav": {
+  "hello": "Hello, I am",
+  "homeText": {
+    "1": "I am a",
+    "2": "Angular Frontend Developer",
+    "3": "with over 2.5 years of experience.",
+    "4": "I live in",
+    "5": "Nuremberg",
+    "6": "and I love writing clean and user-friendly code."
+  },
+  "nav": {
     "home": "Home",
-    "about": "About Me",
+    "iam": "About Me",
     "skills": "Skills",
     "portfolio": "Portfolio",
     "contact": "Contact"
+  },
+    "about": {
+      "title": "About Me",
+      "intro": "Hello, I'm Peter Lakatos, a passionate and dedicated Frontend Developer based in Nuremberg, Germany. With a strong background in Angular development and a proven track record of building dynamic, responsive, and user-friendly web applications, I bring creativity, precision, and technical expertise to every project I undertake.",
+      "experience": "Over the years, I have honed my skills working for various companies, including Tecvia in Regensburg, SET Engineering in Nuremberg, and OrgaCard in Rednitzhembach. My work includes developing progressive web applications (PWAs), implementing modern design principles, optimizing existing solutions, and maintaining robust web systems. I have a knack for debugging and integrating new features to deliver seamless user experiences.",
+      "skills": "I also have a strong foundation in web technologies like HTML5, CSS3, JavaScript, and TypeScript, alongside advanced frameworks such as Angular, RxJS, and NgRX. In addition, I am proficient in tools like Git, Azure, and Jira, which ensure smooth project management and collaboration.",
+      "personal": "Beyond work, I'm a curious learner and a family-oriented person who enjoys cycling, bowling, reading, and learning new languages. With fluency in Hungarian, strong proficiency in German, and basic knowledge of Slovak and English, I thrive in multicultural and collaborative environments."
+    }
 }
-
-}
-
-  

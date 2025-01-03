@@ -11,6 +11,8 @@ export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, 'i18n/', '.json');
 }
 
+
+
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }), 

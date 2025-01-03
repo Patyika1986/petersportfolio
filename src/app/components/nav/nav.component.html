@@ -11,10 +11,10 @@
   <!-- Schließen-Button (X) wird nur angezeigt, wenn das Menü geöffnet ist -->
   <div class="close-toggle" *ngIf="isMenuOpen" (click)="toggleMenu()">X</div>
   <ul class="nav-links" [class.open]="isMenuOpen">
-    <li><a href="#startseite" (click)="toggleMenu()">{{'nav.home'|translate}}</a></li>
-    <li><a href="#lebenslauf" (click)="toggleMenu()">{{'nav.about'|translate}}</a></li>
-    <li><a href="#kontakt" (click)="toggleMenu()">{{'nav.portfolio'|translate}}</a></li>
-    <li><a href="#kontakt" (click)="toggleMenu()">{{'nav.contact'|translate}}</a></li>
+    <li><a  (click)="goToPart('hero')">{{'nav.home'|translate}}</a></li>
+    <li><a  (click)="goToPart('about')">{{'nav.iam'|translate}}</a></li>
+    <li><a  (click)="goToPart('portfolio')">{{'nav.portfolio'|translate}}</a></li>
+    <li><a  (click)="goToPart('contact')">{{'nav.contact'|translate}}</a></li>
   </ul>
 
   <div id="translate">

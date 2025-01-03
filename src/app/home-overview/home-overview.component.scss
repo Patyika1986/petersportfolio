@@ -1,4 +1,4 @@
-.hero {
+#hero {
   height: 100vh;
   margin-top: 6rem;
   display: flex;
@@ -151,9 +151,12 @@
 
 #about {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 4rem 1rem;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: var(--about-bgc);
+  color: var(--text-color);
 
   .container {
     max-width: 1200px;

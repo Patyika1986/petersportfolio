@@ -34,6 +34,11 @@ export class NavComponent {
     this.isMenuOpen = !this.isMenuOpen;
   }
 
+  goToPart(part: string) {
+    const element = document.getElementById(part)as HTMLElement;
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+
   changeLanguage(event: any) {
     this.translate.use(event.target.value);
   }
