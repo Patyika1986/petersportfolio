@@ -1,10 +1,11 @@
 import { NgIf } from '@angular/common';
 import { Component, HostListener, inject } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { DarkModeComponent } from "../dark-mode/dark-mode.component";
 
 @Component({
   selector: 'app-nav',
-  imports: [NgIf,TranslateModule],
+  imports: [NgIf, TranslateModule, DarkModeComponent],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.scss'
 })
