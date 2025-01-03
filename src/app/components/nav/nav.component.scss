@@ -127,6 +127,8 @@
 
   select {
     border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
 
 
     &:focus {
