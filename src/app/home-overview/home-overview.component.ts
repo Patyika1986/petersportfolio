@@ -7,9 +7,10 @@ import { NgFor } from '@angular/common';
 import { AboutComponent } from "../about/about.component";
 import { CvComponent } from "../cv/cv.component";
 import { ProjectsComponent } from "../projects/projects.component";
+import { ContactComponent } from "../contact/contact.component";
 @Component({
   selector: 'app-home-overview',
-  imports: [NavComponent, TranslateModule, AboutComponent, CvComponent, ProjectsComponent],
+  imports: [NavComponent, TranslateModule, AboutComponent, CvComponent, ProjectsComponent, ContactComponent],
   templateUrl: './home-overview.component.html',
   styleUrl: './home-overview.component.scss',
 })
