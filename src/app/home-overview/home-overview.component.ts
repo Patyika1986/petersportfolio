@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 import { NavComponent } from '../components/nav/nav.component';
 import { I18nService } from '../i18n.service';
 import { HttpClient } from '@angular/common/http';
@@ -16,5 +16,12 @@ import { ContactComponent } from "../contact/contact.component";
 })
 export class HomeOverviewComponent  {
   constructor(public i18nService: I18nService) {}
+    @HostListener('window:resize', ['$event'])
+  
  
+
+  goToPart(part: string) {
+    const element = document.getElementById(part)as HTMLElement;
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
 }
