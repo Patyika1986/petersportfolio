@@ -209,6 +209,69 @@
         }
       }
     }
+
+
+
+
+    #gallery {
+      padding: 2rem 0;
+      background-color: #f9f9f9;
+    
+      .infinite-gallery {
+        overflow: hidden; /* Verhindert, dass der Inhalt über den Container hinausläuft */
+        position: relative;
+    
+        .gallery-row {
+          display: flex;
+          gap: 2rem; /* Abstand zwischen den Icons */
+          animation: scroll 20s linear infinite; /* Endloses Scrollen */
+          width: calc(24 * 170px); /* Breite basierend auf Anzahl der Icons und deren Größe */
+    
+          .img {
+            width: 150px;
+            height: 100px;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+            background-color: rgb(34, 27, 27);
+            color: #a8a8a8;
+            border-radius: 6px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: .5rem;
+    
+            &:hover {
+              transform: scale(1.2); /* Vergrößerung bei Hover */
+            }
+          }
+        }
+      }
+    
+      /* Infinite Scroll Animation */
+      @keyframes scroll {
+        from {
+          transform: translateX(0); /* Startposition */
+        }
+        to {
+          transform: translateX(-50%); /* Verschiebe die Icons nach links */
+        }
+      }
+    
+      @media screen and (max-width: 768px) {
+        .infinite-gallery .gallery-row img {
+          width: 80px;
+          height: 80px; /* Kleinere Icons für kleinere Bildschirme */
+        }
+      }
+    
+      @media screen and (max-width: 480px) {
+        .infinite-gallery .gallery-row img {
+          width: 60px;
+          height: 60px; /* Noch kleinere Icons für Smartphones */
+        }
+      }
+    }
   }
 
   /* RESPONSIVE STYLES */
@@ -250,3 +313,6 @@
     }
   }
 }
+
+
+
