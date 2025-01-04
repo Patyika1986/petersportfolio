@@ -2,56 +2,60 @@
 
 <!-- hero -->
 <div id="hero">
-    <div class="content">
-      <div class="image">
-        <img src="/profil.jpeg" alt="Mein Profil Bild" loading="lazy">
-      </div>
-      <div class="description">
-        <h1>{{'hello'|translate}} <span class="highlight">L.Peter</span></h1>
-        <p>{{'homeText.1'|translate}} <strong>{{'homeText.2'|translate}}</strong> {{'homeText.3'|translate}}</p>
-        <p>{{'homeText.4'|translate}} <strong>{{'homeText.5'|translate}}</strong>, {{'homeText.6'|translate}}</p>
-        <button id="kontakt-btn">{{'nav.contact'| translate}}</button>
-      </div>
+  <div class="content">
+    <div class="image">
+      <img src="/profil.jpeg" alt="Mein Profil Bild" loading="lazy" />
     </div>
+    <div class="description">
+      <h1>{{ "hello" | translate }} <span class="highlight">L.Peter</span></h1>
+      <p>
+        {{ "homeText.1" | translate }}
+        <strong>{{ "homeText.2" | translate }}</strong>
+        {{ "homeText.3" | translate }}
+      </p>
+      <p>
+        {{ "homeText.4" | translate }}
+        <strong>{{ "homeText.5" | translate }}</strong
+        >, {{ "homeText.6" | translate }}
+      </p>
+      <button id="kontakt-btn">{{ "nav.contact" | translate }}</button>
+    </div>
+  </div>
 </div>
 
 <div id="about">
   <div class="container">
-    <h2>{{'about.title'|translate}}</h2>
+    <h2>{{ "about.title" | translate }}</h2>
     <p>
-      {{'about.intro'|translate}}
+      {{ "about.intro" | translate }}
     </p>
     <p>
-      {{'about.experience'|translate}}
+      {{ "about.experience" | translate }}
     </p>
     <p>
-      {{'about.skills'|translate}}
+      {{ "about.skills" | translate }}
     </p>
     <p>
-      {{'about.personal'|translate}}
+      {{ "about.personal" | translate }}
     </p>
     <div class="links">
       <a href="https://github.com/Patyika1986" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/peter-lakatos-b99793216/" target="_blank">LinkedIn</a>
-      <a href="https://portfolio-one-tau-55.vercel.app/home" target="_blank">Portfolio</a>
+      <a
+        href="https://www.linkedin.com/in/peter-lakatos-b99793216/"
+        target="_blank"
+        >LinkedIn</a
+      >
+      <a href="https://portfolio-one-tau-55.vercel.app/home" target="_blank"
+        >Portfolio</a
+      >
     </div>
 
-
-      
     <section id="gallery">
       <div class="infinite-gallery">
         <div class="gallery-row">
-          <div class="img" *ngFor="let icon of icons">{{icon}}</div>
+          <div class="img" *ngFor="let icon of icons">{{ icon }}</div>
         </div>
       </div>
     </section>
-    
   </div>
-
-
 </div>
-  
-
-
-
-
