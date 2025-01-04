@@ -6,9 +6,10 @@ import { TranslateModule } from '@ngx-translate/core';
 import { NgFor } from '@angular/common';
 import { AboutComponent } from "../about/about.component";
 import { CvComponent } from "../cv/cv.component";
+import { ProjectsComponent } from "../projects/projects.component";
 @Component({
   selector: 'app-home-overview',
-  imports: [NavComponent, TranslateModule, AboutComponent, CvComponent],
+  imports: [NavComponent, TranslateModule, AboutComponent, CvComponent, ProjectsComponent],
   templateUrl: './home-overview.component.html',
   styleUrl: './home-overview.component.scss',
 })
