@@ -1,0 +1,103 @@
+#gallery, .gallery {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+
+    .row {
+
+
+    }
+
+    .tile {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(54, 54, 54);
+      color: gainsboro;
+      margin-right: .1rem;
+      margin-bottom: .1rem;
+      border-radius: 6px;
+      box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+
+      @media (max-width: 768px) {
+        font-size: .8rem;
+      }
+
+      &:hover {
+        scale: 1.1;
+      }
+
+    }
+
+    .html, .git, .express, .typescript, .js {
+      width: 200px;
+      height: 100px;
+
+      @media (max-width: 768px) {
+        width: 100px;
+        height: 50px;
+      }
+      @media (max-width: 550px) {
+        width: 80px;
+        height: 25px;
+      }
+    }
+
+    .angular, .sass, .react {
+      width: 150px;
+      height: 50px;
+      @media (max-width: 550px) {
+        width: 80px;
+        height: 25px;
+      }
+      
+    }
+
+
+    .vue, .rxjs, .redux, .css, .node {
+      width: 100px;
+      height: 60px;
+      @media (max-width: 550px) {
+        width: 80px;
+        height: 25px;
+      }
+    }
+
+
+    .bootstrap, .chart, .karma {
+      width: 200px;
+      height: 100px;
+      @media (max-width: 768px) {
+        width: 100px;
+        height: 50px;
+      }
+      @media (max-width: 550px) {
+        width: 80px;
+        height: 25px;
+      }
+    }
+
+    .scss, .npm, .vercel, .firebase {
+      width: 150px;
+      height: 50px;
+      @media (max-width: 550px) {
+        width: 80px;
+        height: 25px;
+      }
+    }
+
+
+    .github, .materialize, .mysql {
+      width: 100px;
+      height: 60px;
+      @media (max-width: 550px) {
+        width: 80px;
+        height: 25px;
+      }
+    }
+
+  }
+
