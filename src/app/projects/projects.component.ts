@@ -48,6 +48,20 @@ export class ProjectsComponent implements OnInit {
       liveLink: 'https://haushaltsbuch-rechner.vercel.app/',
       gitHubLink: 'https://github.com/Patyika1986/Haushaltsbuch-Rechner',
     },
+    pong: {
+      image: 'image/pong.PNG',
+      tools: [
+        'HTML5',
+        ' CSS3',
+        ' JavaScript',
+        ' Localstorage'
+      ],
+      desc: 'Ein dynamisches E-commerze Webseite, mit Firebase Auth und Firebase als Backand.',
+      gallery: [
+      ],
+      liveLink: 'https://montag-minigame.vercel.app/',
+      gitHubLink: 'https://github.com/Patyika1986/Montag-Minigame',
+    },
   };
 
 

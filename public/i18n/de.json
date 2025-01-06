@@ -20,8 +20,18 @@
     "title": "Über mich",
     "intro": "Hallo, ich bin Peter Lakatos, ein engagierter Frontend-Entwickler aus Nürnberg, Deutschland. Mit einem starken Hintergrund in Angular-Entwicklung und einer nachgewiesenen Erfolgsbilanz beim Erstellen dynamischer, reaktionsschneller und benutzerfreundlicher Webanwendungen bringe ich Kreativität, Präzision und technisches Know-how in jedes Projekt ein, das ich übernehme.",
     "experience": "Im Laufe der Jahre habe ich meine Fähigkeiten bei verschiedenen Unternehmen wie Tecvia in Regensburg, SET Engineering in Nürnberg und OrgaCard in Rednitzhembach geschärft. Meine Arbeit umfasst die Entwicklung progressiver Webanwendungen (PWAs), die Implementierung moderner Designprinzipien, die Optimierung bestehender Lösungen und die Pflege robuster Websysteme. Ich habe ein Händchen für Debugging und die Integration neuer Funktionen, um nahtlose Benutzererfahrungen zu bieten.",
-    "skills": "Ich habe auch eine starke Grundlage in Webtechnologien wie HTML5, CSS3, JavaScript und TypeScript sowie fortgeschrittenen Frameworks wie Angular, RxJS und NgRX. Darüber hinaus beherrsche ich Tools wie Git, Azure und Jira, die ein reibungsloses Projektmanagement und eine gute Zusammenarbeit gewährleisten.",
+    "skills": "Ich habe auch eine starke Grundlage in Webtechnologien wie HTML5, CSS3, JavaScript und TypeScript sowie fortgeschrittenen Frameworks wie Angular, RxJS und NgRX. Darüber hinaus beherrsche ich Tools wie Git und Jira, die ein reibungsloses Projektmanagement und eine gute Zusammenarbeit gewährleisten.",
     "personal": "Neben der Arbeit bin ich ein neugieriger Lerner und ein familienorientierter Mensch, der gerne Fahrrad fährt, bowlt, liest und neue Sprachen lernt. Ich spreche fließend Ungarisch, beherrsche Deutsch auf einem verhandlungssicheren Niveau und habe Grundkenntnisse in Slowakisch und Englisch."
+  },
+  "contact": {
+    "title": "Kontaktiere mich",
+    "tel": "Telefon",
+    "desc": "Hinterlasse mir eine Nachricht. Ich werde mich so schnell wie möglich bei dir melden!",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "sendBtn": "Nachricht Senden",
+    "name":"Deine Name",
+    "email": "Deine E-Mail-Adresse"
   },
   "cv": {
     "title": "Lebenslauf",
@@ -119,6 +129,9 @@
     },
     "liqui": {
       "desc": "Wurde mit Vanilla JavaScript entwickelt und verwendet sehr wenig HTML. Ein Haushaltsbuch, das helfen soll, den Überblick über Ein- und Ausgaben zu behalten."
+    },
+    "pong": {
+      "desc": "Habe ich mit Vanilla JavaScript entwickelt. Es ist ein kleines Pong-Spiel. Viel Spaß beim Spielen!"
     }
   }
 }

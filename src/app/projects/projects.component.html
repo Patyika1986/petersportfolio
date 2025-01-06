@@ -1,25 +1,34 @@
 <section id="projects">
-    <h2>Projekte</h2>
-    <div class="project-cards">
-      <app-project 
-        [name]="'StepOne'" 
-        [tools]="projects.stepOne.tools" 
-        [image]="projects.stepOne.image"
-        [desc]="'projects.stepOne.desc' | translate"
-        [gallery]="projects.stepOne.gallery"
-        [liveLink]="projects.stepOne.liveLink"
-        [githubLink]="projects.stepOne.gitHubLink"
-        ></app-project>     
-    </div>
-    <div class="project-cards">
-      <app-project 
-      [name]="'Liqui-Planner'" 
-      [tools]="projects.liqui.tools" 
+  <h2>Projekte</h2>
+  <div class="project-cards">
+    <app-project
+      [name]="'StepOne'"
+      [tools]="projects.stepOne.tools"
+      [image]="projects.stepOne.image"
+      [desc]="'projects.stepOne.desc' | translate"
+      [gallery]="projects.stepOne.gallery"
+      [liveLink]="projects.stepOne.liveLink"
+      [githubLink]="projects.stepOne.gitHubLink"
+    ></app-project>
+    <app-project
+      [name]="'Liqui-Planner'"
+      [tools]="projects.liqui.tools"
       [image]="projects.liqui.image"
       [desc]="'projects.liqui.desc' | translate"
       [gallery]="projects.liqui.gallery"
       [liveLink]="projects.liqui.liveLink"
       [githubLink]="projects.liqui.gitHubLink"
-      ></app-project>  
-    </div>
-  </section>
+    ></app-project>
+  </div>
+  <div class="projects-cards">
+    <app-project
+    [name]="'Pong'"
+    [tools]="projects.pong.tools"
+    [image]="projects.pong.image"
+    [desc]="'projects.pong.desc' | translate"
+    [gallery]="projects.pong.gallery"
+    [liveLink]="projects.pong.liveLink"
+    [githubLink]="projects.pong.gitHubLink"
+  ></app-project>
+  </div>
+</section>

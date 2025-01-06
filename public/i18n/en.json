@@ -20,8 +20,18 @@
     "title": "About Me",
     "intro": "Hi, I am Peter Lakatos, a dedicated frontend developer from Nuremberg, Germany. With a strong background in Angular development and a proven track record of creating dynamic, responsive, and user-friendly web applications, I bring creativity, precision, and technical expertise to every project I undertake.",
     "experience": "Over the years, I have honed my skills at various companies such as Tecvia in Regensburg, SET Engineering in Nuremberg, and OrgaCard in Rednitzhembach. My work includes developing progressive web applications (PWAs), implementing modern design principles, optimizing existing solutions, and maintaining robust web systems. I have a knack for debugging and integrating new features to provide seamless user experiences.",
-    "skills": "I also have a strong foundation in web technologies like HTML5, CSS3, JavaScript, and TypeScript, as well as advanced frameworks like Angular, RxJS, and NgRX. Additionally, I am proficient in tools like Git, Azure, and Jira, ensuring smooth project management and collaboration.",
+    "skills": "I also have a strong foundation in web technologies like HTML5, CSS3, JavaScript, and TypeScript, as well as advanced frameworks like Angular, RxJS, and NgRX. Additionally, I am proficient in tools like Git, and Jira, ensuring smooth project management and collaboration.",
     "personal": "Outside of work, I am a curious learner and a family-oriented person who enjoys cycling, bowling, reading, and learning new languages. I am fluent in Hungarian, have a professional command of German, and possess basic knowledge of Slovak and English."
+  },
+  "contact": {
+    "title": "Contact Me",
+    "tel": "Phone",
+    "desc": "Leave me a message, and I will get back to you as soon as possible!",
+    "subject": "Subject",
+    "message": "Message",
+    "sendBtn": "Send message",
+    "name":"Your Name",
+    "email": "Your E-Mail-Adress"
   },
   "cv": {
     "title": "Resume",
@@ -119,6 +129,9 @@
     },
     "liqui": {
       "desc": "Developed with Vanilla JavaScript and very little HTML. A household budgeting tool designed to help keep track of income and expenses."
+    },
+    "pong": {
+      "desc": "I developed this with Vanilla JavaScript. It's a small Pong game. Have fun playing!"
     }
   }
 }

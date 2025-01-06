@@ -33,11 +33,17 @@ export class NavComponent {
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
   }
-
-  goToPart(part: string) {
-    const element = document.getElementById(part)as HTMLElement;
-    element.scrollIntoView({ behavior: 'smooth' });
+  goToPart(id: string): void {
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        console.error(`Element with id '${id}' not found.`);
+      }
+    }, 0);
   }
+  
 
   changeLanguage(event: any) {
     this.translate.use(event.target.value);
