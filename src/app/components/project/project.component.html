@@ -1,0 +1,23 @@
+<div class="project-card">
+    <div class="project-image">
+      <img [src]="image" alt="Projekt Bild" class="main-image" />
+      <div class="hover-gallery">
+        <img *ngFor="let img of gallery" 
+          [src]="img.src" 
+          [alt]="img.alt"
+          (click)="updateMainImage(img.src)"
+           />
+      </div>
+    </div>
+    <div class="project-info">
+      <h3>{{name}}</h3>
+      <p>{{tools}}</p>
+      <p>
+       {{desc}}
+      </p>
+      <div class="project-buttons">
+        <a [href]="liveLink" target="_blank" class="btn live-btn">Live Demo</a>
+        <a [href]="githubLink" target="_blank" class="btn github-btn">GitHub</a>
+      </div>
+    </div>
+</div>

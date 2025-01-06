@@ -24,6 +24,101 @@
     "personal": "Neben der Arbeit bin ich ein neugieriger Lerner und ein familienorientierter Mensch, der gerne Fahrrad fährt, bowlt, liest und neue Sprachen lernt. Ich spreche fließend Ungarisch, beherrsche Deutsch auf einem verhandlungssicheren Niveau und habe Grundkenntnisse in Slowakisch und Englisch."
   },
   "cv": {
-    "title": "Lebenslauf"
+    "title": "Lebenslauf",
+    "experience": {
+      "nov2023-current": {
+        "title": "Frontend Entwickler",
+        "company": "Tecvia, Regensburg",
+        "tasks": [
+          "Entwicklung mit Angular",
+          "Erstellung eines Fahrschulmanager-Systems",
+          "Entwicklung dynamischer PWA-Anwendungen und Webseiten",
+          "Responsive Design und Optimierung",
+          "Integration und Wartung von MWS-Systemen",
+          "Debugging und Erweiterung bestehender Projekte",
+          "Implementierung neuer Features"
+        ]
+      },
+      "jan2023-may2023": {
+        "title": "Frontend Entwickler",
+        "company": "SET Engineering, Nürnberg",
+        "tasks": [
+          "Angular-basierte Entwicklung dynamischer PWA-Anwendungen",
+          "Umsetzung responsiver Designs",
+          "Arbeiten mit MWS-Systemen",
+          "Debugging, Wartung und Tests",
+          "Entwicklung und Integration neuer Features"
+        ]
+      },
+      "jun2022-dec2022": {
+        "title": "Frontend Entwickler",
+        "company": "OrgaCard und Siemantel & Alt GmbH, Rednitzhembach",
+        "tasks": [
+          "Entwicklung dynamischer responsiver Anwendungen mit Angular",
+          "Integration und Optimierung von MWS- und LWS-Systemen",
+          "Entwicklung eines Kiosk-E-Commerce-Systems mit Administrations-Tools",
+          "Debugging, Wartung und Tests",
+          "Implementierung neuer Features"
+        ]
+      },
+      "dec2021-apr2022": {
+        "title": "Weiterbildung als Frontend Entwickler",
+        "company": "Cimdata, Nürnberg",
+        "tasks": [
+          "HTML5 / CSS3 Grundkurs",
+          "JavaScript / ECMA Grund- und Aufbaukurs",
+          "Programmierung mit dem JavaScript-Framework React"
+        ]
+      }
+    },
+    "additional-info": {
+      "moreInfo": "Weitere Kenntnisse",
+      "languages": {
+        "title": "Sprachen",
+        "details": [
+          "Ungarisch: Muttersprache",
+          "Deutsch: Niveau - verhandlungssicher",
+          "Slowakisch: Niveau B1",
+          "Englisch: Niveau A2"
+        ]
+      },
+      "driving-license": {
+        "title": "Führerschein",
+        "details": "Klasse B"
+      },
+      "personal-attributes": {
+        "title": "Persönliche Eigenschaften",
+        "details": [
+          "Motiviert",
+          "Zielstrebig",
+          "Teamfähig",
+          "Lösungsorientiert",
+          "Flexibel",
+          "Durchsetzungsstark",
+          "Neugierig",
+          "Freundlich",
+          "Familienmensch",
+          "Zuverlässig"
+        ]
+      },
+      "hobbies": {
+        "title": "Hobbys",
+        "details": [
+          "Fahrradfahren",
+          "Bowling",
+          "Lesen",
+          "Spazieren",
+          "Fremdsprachen lernen"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "stepOne": {
+      "desc": "Ein dynamisches E-Commerce-Webseite, mit Firebase Auth und Firebase als Backend."
+    },
+    "liqui": {
+      "desc": "Wurde mit Vanilla JavaScript entwickelt und verwendet sehr wenig HTML. Ein Haushaltsbuch, das helfen soll, den Überblick über Ein- und Ausgaben zu behalten."
+    }
   }
 }

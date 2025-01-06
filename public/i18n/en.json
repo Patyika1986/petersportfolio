@@ -2,7 +2,7 @@
   "hello": "Hello, I am",
   "homeText": {
     "1": "I am a",
-    "2": "Angular Frontend Developer",
+    "2": "Angular frontend developer",
     "3": "with over 2.5 years of experience.",
     "4": "I live in",
     "5": "Nuremberg",
@@ -10,20 +10,115 @@
   },
   "nav": {
     "home": "Home",
-    "iam": "About Me",
-    "cv": "CV",
+    "iam": "About me",
+    "cv": "Resume",
     "skills": "Skills",
     "portfolio": "Portfolio",
     "contact": "Contact"
   },
-    "about": {
-      "title": "About Me",
-      "intro": "Hello, I'm Peter Lakatos, a passionate and dedicated Frontend Developer based in Nuremberg, Germany. With a strong background in Angular development and a proven track record of building dynamic, responsive, and user-friendly web applications, I bring creativity, precision, and technical expertise to every project I undertake.",
-      "experience": "Over the years, I have honed my skills working for various companies, including Tecvia in Regensburg, SET Engineering in Nuremberg, and OrgaCard in Rednitzhembach. My work includes developing progressive web applications (PWAs), implementing modern design principles, optimizing existing solutions, and maintaining robust web systems. I have a knack for debugging and integrating new features to deliver seamless user experiences.",
-      "skills": "I also have a strong foundation in web technologies like HTML5, CSS3, JavaScript, and TypeScript, alongside advanced frameworks such as Angular, RxJS, and NgRX. In addition, I am proficient in tools like Git, Azure, and Jira, which ensure smooth project management and collaboration.",
-      "personal": "Beyond work, I'm a curious learner and a family-oriented person who enjoys cycling, bowling, reading, and learning new languages. With fluency in Hungarian, strong proficiency in German, and basic knowledge of Slovak and English, I thrive in multicultural and collaborative environments."
+  "about": {
+    "title": "About Me",
+    "intro": "Hi, I am Peter Lakatos, a dedicated frontend developer from Nuremberg, Germany. With a strong background in Angular development and a proven track record of creating dynamic, responsive, and user-friendly web applications, I bring creativity, precision, and technical expertise to every project I undertake.",
+    "experience": "Over the years, I have honed my skills at various companies such as Tecvia in Regensburg, SET Engineering in Nuremberg, and OrgaCard in Rednitzhembach. My work includes developing progressive web applications (PWAs), implementing modern design principles, optimizing existing solutions, and maintaining robust web systems. I have a knack for debugging and integrating new features to provide seamless user experiences.",
+    "skills": "I also have a strong foundation in web technologies like HTML5, CSS3, JavaScript, and TypeScript, as well as advanced frameworks like Angular, RxJS, and NgRX. Additionally, I am proficient in tools like Git, Azure, and Jira, ensuring smooth project management and collaboration.",
+    "personal": "Outside of work, I am a curious learner and a family-oriented person who enjoys cycling, bowling, reading, and learning new languages. I am fluent in Hungarian, have a professional command of German, and possess basic knowledge of Slovak and English."
+  },
+  "cv": {
+    "title": "Resume",
+    "experience": {
+      "nov2023-current": {
+        "title": "Frontend Developer",
+        "company": "Tecvia, Regensburg",
+        "tasks": [
+          "Development with Angular",
+          "Creation of a driving school management system",
+          "Development of dynamic PWA applications and websites",
+          "Responsive design and optimization",
+          "Integration and maintenance of MWS systems",
+          "Debugging and extension of existing projects",
+          "Implementation of new features"
+        ]
+      },
+      "jan2023-may2023": {
+        "title": "Frontend Developer",
+        "company": "SET Engineering, Nuremberg",
+        "tasks": [
+          "Angular-based development of dynamic PWA applications",
+          "Implementation of responsive designs",
+          "Working with MWS systems",
+          "Debugging, maintenance, and testing",
+          "Development and integration of new features"
+        ]
+      },
+      "jun2022-dec2022": {
+        "title": "Frontend Developer",
+        "company": "OrgaCard and Siemantel & Alt GmbH, Rednitzhembach",
+        "tasks": [
+          "Development of dynamic responsive applications with Angular",
+          "Integration and optimization of MWS and LWS systems",
+          "Development of a kiosk e-commerce system with admin tools",
+          "Debugging, maintenance, and testing",
+          "Implementation of new features"
+        ]
+      },
+      "dec2021-apr2022": {
+        "title": "Frontend Developer Training",
+        "company": "Cimdata, Nuremberg",
+        "tasks": [
+          "HTML5 / CSS3 basic course",
+          "JavaScript / ECMA basic and advanced course",
+          "Programming with the React JavaScript framework"
+        ]
+      }
     },
-    "cv": {
-      "title": "CV"
+    "additional-info": {
+      "moreInfo": "Further knowledge",
+      "languages": {
+        "title": "Languages",
+        "details": [
+          "Hungarian: Native",
+          "German: Professional working proficiency",
+          "Slovak: B1 level",
+          "English: A2 level"
+        ]
+      },
+      "driving-license": {
+        "title": "Driving License",
+        "details": "Class B"
+      },
+      "personal-attributes": {
+        "title": "Personal Attributes",
+        "details": [
+          "Motivated",
+          "Goal-oriented",
+          "Team player",
+          "Solution-oriented",
+          "Flexible",
+          "Assertive",
+          "Curious",
+          "Friendly",
+          "Family-oriented",
+          "Reliable"
+        ]
+      },
+      "hobbies": {
+        "title": "Hobbies",
+        "details": [
+          "Cycling",
+          "Bowling",
+          "Reading",
+          "Walking",
+          "Learning foreign languages"
+        ]
+      }
     }
+  },
+  "projects": {
+    "stepOne": {
+      "desc": "A dynamic e-commerce website, with Firebase Auth and Firebase as backend."
+    },
+    "liqui": {
+      "desc": "Developed with Vanilla JavaScript and very little HTML. A household budgeting tool designed to help keep track of income and expenses."
+    }
+  }
 }

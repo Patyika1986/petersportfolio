@@ -1,25 +1,18 @@
 <section id="cv">
     <header>
-       <h1> {{'cv.title'| translate}}</h1>
         <app-technologie-skills></app-technologie-skills>
     </header>
 
         <section id="experience">
-            <h2>Berufserfahrung</h2>
+            <h2>{{'cv.title'|translate}}</h2>
             <div class="timeline">
               <div class="timeline-item">
                 <div class="timeline-date">Nov. 2023 – Aktuell</div>
                 <div class="timeline-content">
-                  <h3>Frontend Entwickler</h3>
+                  <h3>{{'cv.experience.nov2023-current.title'|translate}}</h3>
                   <p><strong>Tecvia, Regensburg</strong></p>
                   <ul>
-                    <li>Entwicklung mit Angular</li>
-                    <li>Erstellung eines Fahrschulmanager-Systems</li>
-                    <li>Entwicklung dynamischer PWA-Anwendungen und Webseiten</li>
-                    <li>Responsive Design und Optimierung</li>
-                    <li>Integration und Wartung von MWS-Systemen</li>
-                    <li>Debugging und Erweiterung bestehender Projekte</li>
-                    <li>Implementierung neuer Features</li>
+                    <li *ngFor="let task of 'cv.experience.nov2023-current.tasks' | translate">{{task}}</li>
                   </ul>
                 </div>
               </div>
@@ -30,11 +23,7 @@
                   <h3>Frontend Entwickler</h3>
                   <p><strong>SET Engineering, Nürnberg</strong></p>
                   <ul>
-                    <li>Angular-basierte Entwicklung dynamischer PWA-Anwendungen</li>
-                    <li>Umsetzung responsiver Designs</li>
-                    <li>Arbeiten mit MWS-Systemen</li>
-                    <li>Debugging, Wartung und Tests</li>
-                    <li>Entwicklung und Integration neuer Features</li>
+                    <li *ngFor="let task of 'cv.experience.jan2023-may2023.tasks' | translate">{{task}}</li>
                   </ul>
                 </div>
               </div>
@@ -43,13 +32,9 @@
                 <div class="timeline-date">Juni 2022 – Dez. 2022</div>
                 <div class="timeline-content">
                   <h3>Frontend Entwickler</h3>
-                  <p><strong>OrgaCard und Siemantel & Alt GmbH, Rednitzhembach</strong></p>
+                  <p><strong>{{'cv.experience.jun2022-dec2022.company'|translate}}</strong></p>
                   <ul>
-                    <li>Entwicklung dynamischer responsiver Anwendungen mit Angular</li>
-                    <li>Integration und Optimierung von MWS- und LWS-Systemen</li>
-                    <li>Entwicklung eines Kiosk-E-Commerce-Systems mit Administrations-Tools</li>
-                    <li>Debugging, Wartung und Tests</li>
-                    <li>Implementierung neuer Features</li>
+                    <li *ngFor="let task of 'cv.experience.jun2022-dec2022.tasks' | translate">{{task}}</li>
                   </ul>
                 </div>
               </div>
@@ -57,12 +42,10 @@
               <div class="timeline-item">
                 <div class="timeline-date">Dez. 2021 – Apr. 2022</div>
                 <div class="timeline-content">
-                  <h3>Weiterbildung als Frontend Entwickler</h3>
-                  <p><strong>Cimdata, Nürnberg</strong></p>
+                  <h3>{{'cv.experience.dec2021-apr2022.title'|translate}}</h3>
+                  <p><strong>{{'cv.experience.dec2021-apr2022.company'|translate}}</strong></p>
                   <ul>
-                    <li>HTML5 / CSS3 Grundkurs</li>
-                    <li>JavaScript / ECMA Grund- und Aufbaukurs</li>
-                    <li>Programmierung mit dem JavaScript-Framework React</li>
+                    <li *ngFor="let task of 'cv.experience.dec2021-apr2022.tasks' | translate">{{task}}</li>
                   </ul>
                 </div>
               </div>
@@ -74,47 +57,31 @@
 
 
 <section id="additional-info">
-  <h2>Weitere Kenntnisse</h2>
+  <h2>{{'cv.additional-info.moreInfo'|translate}}</h2>
   <div class="cards">
     <div class="card">
-      <h3>Sprachen</h3>
+      <h3>{{'cv.additional-info.languages.title'|translate}}</h3>
       <ul>
-        <li><strong>Ungarisch:</strong> Muttersprache</li>
-        <li><strong>Deutsch:</strong> Niveau - verhandlungssicher</li>
-        <li><strong>Slowakisch:</strong> Niveau B1</li>
-        <li><strong>Englisch:</strong> Niveau A2</li>
+        <li *ngFor="let lang of 'cv.additional-info.languages.details' | translate">{{lang}} </li>
       </ul>
     </div>
 
     <div class="card">
-      <h3>Führerschein</h3>
-      <p>Klasse B</p>
+      <h3>{{'cv.additional-info.driving-license.title'|translate}}</h3>
+      <p>{{'cv.additional-info.driving-license.details'|translate}}</p>
     </div>
 
     <div class="card">
-      <h3>Persönliche Eigenschaften</h3>
+      <h3>{{'cv.additional-info.personal-attributes.title'|translate}}</h3>
       <ul>
-        <li>Motiviert</li>
-        <li>Zielstrebig</li>
-        <li>Teamfähig</li>
-        <li>Lösungsorientiert</li>
-        <li>Flexibel</li>
-        <li>Durchsetzungsstark</li>
-        <li>Neugierig</li>
-        <li>Freundlich</li>
-        <li>Familienmensch</li>
-        <li>Zuverlässig</li>
+        <li *ngFor="let det of 'cv.additional-info.personal-attributes.details' | translate">{{det}}</li>
       </ul>
     </div>
 
     <div class="card">
-      <h3>Hobbys</h3>
+      <h3>{{'cv.additional-info.hobbies.title'|translate}}</h3>
       <ul>
-        <li>Fahrradfahren</li>
-        <li>Bowling</li>
-        <li>Lesen</li>
-        <li>Spazieren</li>
-        <li>Fremdsprachen lernen</li>
+        <li *ngFor="let det of 'cv.additional-info.hobbies.details' | translate">{{det}}</li>
       </ul>
     </div>
   </div>
