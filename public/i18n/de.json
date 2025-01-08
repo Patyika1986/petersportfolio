@@ -31,7 +31,8 @@
     "message": "Nachricht",
     "sendBtn": "Nachricht Senden",
     "name":"Deine Name",
-    "email": "Deine E-Mail-Adresse"
+    "email": "Deine E-Mail-Adresse",
+    "text":"Ich freue mich, von dir zu hören! Hier sind meine Kontaktdaten"
   },
   "cv": {
     "title": "Lebenslauf",

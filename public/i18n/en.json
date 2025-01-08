@@ -31,7 +31,8 @@
     "message": "Message",
     "sendBtn": "Send message",
     "name":"Your Name",
-    "email": "Your E-Mail-Adress"
+    "email": "Your E-Mail-Adress",
+    "text":"I look forward to hearing from you! Here are my contact details"
   },
   "cv": {
     "title": "Resume",
