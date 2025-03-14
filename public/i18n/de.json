@@ -133,6 +133,9 @@
     },
     "pong": {
       "desc": "Habe ich mit Vanilla JavaScript entwickelt. Es ist ein kleines Pong-Spiel. Viel Spaß beim Spielen!"
+    },
+    "cleaning": {
+      "desc": "Ich habe diese Webseite erstellt damit Sie ein Eindruck sich machen könne wie gut mein Frontend Design Fähigkeiten sind."
     }
   }
 }

@@ -133,6 +133,9 @@
     },
     "pong": {
       "desc": "I developed this with Vanilla JavaScript. It's a small Pong game. Have fun playing!"
+    },
+    "cleaning": {
+      "desc": "I created this website so you can get an idea of ​​how good my frontend design skills are."
     }
   }
 }

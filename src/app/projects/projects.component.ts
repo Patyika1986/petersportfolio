@@ -62,6 +62,20 @@ export class ProjectsComponent implements OnInit {
       liveLink: 'https://montag-minigame.vercel.app/',
       gitHubLink: 'https://github.com/Patyika1986/Montag-Minigame',
     },
+    cleaning: {
+      image: 'image/pdfsr.PNG',
+      tools: [
+        'HTML5',
+        ' SCSS',
+        ' Angular',
+        'Canvas Design'
+      ],
+      desc: 'Ich habe diese Webseite erstellt damit Sie ein Eindruck sich machen könne wie gut mein Frontend Design Fähigkeiten sind.',
+      gallery: [
+      ],
+      liveLink: 'https://www.pdfsr.de/home',
+      gitHubLink: 'https://github.com/Patyika1986/pdfsr',
+    },
   };
 
 
